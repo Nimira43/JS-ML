@@ -1,7 +1,7 @@
 function Panel() {
   
   return (
-    <div className='bg-[#111] px-3 py-2 text-[#ff4500]'>
+    <div>
       <h1>Panel</h1>
     </div>
   )
