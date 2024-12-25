@@ -1,0 +1,14 @@
+{
+  "name": "core-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "author": "Nick Rabone",
+  "license": "ISC",
+  "description": "TypeScript sandbox",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
