@@ -96,3 +96,14 @@ canvas {
 label {
   text-transform: uppercase !important;
 }
+
+button {
+  background-color: var(--main) !important;
+  text-transform: uppercase !important;
+  transition: all 0.5s ease-in-out !important;
+}
+
+button:hover {
+  background-color: var(--dark) !important;
+}
+
