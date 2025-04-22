@@ -12,8 +12,7 @@
 }
 
 body {
-  /* background-color: var(--dark);
-  color: var(--light); */
+  background-color: var(--grey-light-extra);
   font-family: 'Poppins', sans-serif !important;
 }
 
@@ -24,7 +23,6 @@ body {
   margin-bottom: 10px;
   flex-direction: column;
   position: relative;
-  background-color: brown;
 }
 
 canvas {
@@ -35,7 +33,9 @@ canvas {
   display: flex;
   max-width: 795px;
   justify-content: space-around;
-  background-color: red; 
+  text-transform: uppercase;
+  background-color: var(--main);
+  color: var(--light);
 }
 
 .box-labels > div {
@@ -52,7 +52,6 @@ canvas {
 
 .wrapper {
   margin: 20px;
-  background-color: green;
 }
 
 .x-axis {
@@ -60,7 +59,6 @@ canvas {
   z-index: 10;
   top: 0px;
   left: 10px;
-  background-color: blue;
 }
 
 /* .x-axis span.neck {
@@ -83,5 +81,13 @@ canvas {
 
 .target-wrapper > div {
   position: relative;
-  background-color: orange;
+}
+
+.form h4 {
+  color: var(--dark);
+  text-transform: uppercase;
+}
+
+label {
+  text-transform: uppercase !important;
 }
