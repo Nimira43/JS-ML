@@ -9,6 +9,7 @@
   --grey-medium: #999;
   --grey-light: #ccc;
   --grey-light-extra: #eee;
+  --light-yellow: #ffff95;
 }
 
 body {
@@ -81,6 +82,10 @@ canvas {
 
 .target-wrapper > div {
   position: relative;
+}
+
+.form {
+  background-color: var(--light-yellow) !important;
 }
 
 .form h4 {
