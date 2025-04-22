@@ -24,5 +24,39 @@ body {
   margin-bottom: 10px;
   flex-direction: column;
   position: relative;
+  background-color: brown;
 }
 
+.box-labels {
+  display: flex;
+  max-width: 795px;
+  justify-content: space-around;
+  background-color: red; 
+}
+
+.box-labels > div {
+  z-index: 10;
+  /* margin-top: -67px; */
+  min-width: 79.5px;
+  text-align: center;
+}
+
+.box-labels .score {
+  font-weight: 500; 
+  font-size: 20px;
+}
+
+.wrapper {
+  margin: 20px;
+  background-color: green;
+}
+
+.x-position {
+  position: absolute;
+  right: 10px;
+}
+
+.target-wrapper > div {
+  position: relative;
+  background-color: orange;
+}
