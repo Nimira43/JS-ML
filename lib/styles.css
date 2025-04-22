@@ -27,6 +27,10 @@ body {
   background-color: brown;
 }
 
+canvas {
+  border: 1px solid var(--grey-dark);
+}
+
 .box-labels {
   display: flex;
   max-width: 795px;
@@ -50,6 +54,27 @@ body {
   margin: 20px;
   background-color: green;
 }
+
+.x-axis {
+  position: absolute;
+  z-index: 10;
+  top: 0px;
+  left: 10px;
+  background-color: blue;
+}
+
+/* .x-axis span.neck {
+  display: inline-block;
+  min-width: 200px;
+  border-bottom: 1px solid var(--dark);
+  position: relative;
+  bottom: 6px;
+  right: -9px;
+}
+
+.x-axis span.head {
+  font-size: 18px;
+} */
 
 .x-position {
   position: absolute;
