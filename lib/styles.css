@@ -9,7 +9,6 @@
   --grey-medium: #999;
   --grey-light: #ccc;
   --grey-light-extra: #eee;
-
 }
 
 body {
@@ -17,3 +16,13 @@ body {
   color: var(--light);
   font-family: 'Poppins', sans-serif !important;
 }
+
+.target-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  flex-direction: column;
+  position: relative;
+}
+
