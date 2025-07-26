@@ -46,3 +46,15 @@ html {
   font-family: 'Carattere', cursive;
   font-size: 6rem;
 }
+
+@media (max-width: 1000px) {
+  .navbar {
+    justify-content: start;
+    padding-left: 2rem;
+  }
+  .menu {
+    display: block;
+    width: 4rem;
+    height: 2.5rem;
+  }
+}
