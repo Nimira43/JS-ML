@@ -17,4 +17,10 @@ html {
   --main-light: #aefbae;
   --support: #ffd700;
   --support-light: #ffffe0;
+  --dark: #111;
+  --light: #ffeeff;
+  --grey-dark: #333;
+  --grey-medium: #999;
+  --grey-light: #ccc;
+  --grey-light-extra: #eee;
 }
