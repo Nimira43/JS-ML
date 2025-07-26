@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +8,8 @@
   outline: none;
   text-decoration: none;
   list-style-type: none;
+  font-family: 'Noto Serif', serif;
+  font-weight: 300;
 }
 
 html {
@@ -24,4 +29,8 @@ html {
   --grey-light: #ccc;
   --grey-light-extra: #eee;
   --transition: all 0.5s ease-in-out;
+}
+
+.logo {
+  font-family: 'Carattere', cursive;
 }
