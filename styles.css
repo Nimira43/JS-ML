@@ -23,4 +23,5 @@ html {
   --grey-medium: #999;
   --grey-light: #ccc;
   --grey-light-extra: #eee;
+  --transition: all 0.5s ease-in-out;
 }
