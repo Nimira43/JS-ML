@@ -39,8 +39,10 @@ html {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  background-color: red;
 }
 
 .logo {
   font-family: 'Carattere', cursive;
+  font-size: 6rem;
 }
