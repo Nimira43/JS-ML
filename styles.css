@@ -41,6 +41,10 @@ html {
   align-items: center;
 }
 
+.menu {
+  display: none;
+}
+
 .logo {
   font-family: 'Carattere', cursive;
   font-size: 5rem;
