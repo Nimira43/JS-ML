@@ -47,6 +47,18 @@ html {
   color: var(--main-dark)
 }
 
+@media (max-width: 1600px) {
+
+}
+
+@media (max-width: 1300px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
 @media (max-width: 1000px) {
   .navbar {
     justify-content: start;
@@ -81,5 +93,19 @@ html {
   
   .change .menu-line-3 {
     transform: rotate(-40deg) translate(0.5rem, -1rem);
+  }
+}
+
+@media (max-width: 800px) {
+
+}
+
+@media (max-width: 600px) {
+
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 45%;
   }
 }
