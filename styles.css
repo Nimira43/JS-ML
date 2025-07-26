@@ -45,6 +45,13 @@ html {
   display: none;
 }
 
+.nav-list {
+  display: flex;
+  justify-content: center;
+}
+
+
+
 .logo {
   font-family: 'Carattere', cursive;
   font-size: 5rem;
