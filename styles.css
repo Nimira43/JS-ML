@@ -7,6 +7,14 @@
   list-style-type: none;
 }
 
-.html {
+html {
   font-size: 62.5%;
+}
+
+:root {
+  --main: #19b419;
+  --main-dark: #046704;
+  --main-light: #aefbae;
+  --support: #ffd700;
+  --support-light: #ffffe0;
 }
