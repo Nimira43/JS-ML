@@ -98,7 +98,9 @@ html {
 }
 
 @media (max-width: 1200px) {
-
+  .nav-link {
+    margin: 0 1.5rem;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -106,6 +108,7 @@ html {
     justify-content: start;
     padding-left: 2rem;
   }
+
   .menu {
     display: block;
     width: 4rem;
@@ -135,6 +138,27 @@ html {
   
   .change .menu-line-3 {
     transform: rotate(-40deg) translate(0.5rem, -1rem);
+  }
+
+  .nav-list {
+    position: absolute;
+    top: 5rem;
+    right: -21rem;
+    flex-direction: column;
+    height: calc(100vh - 5rem);
+    background-color: var(--main-light);
+    justify-content: start;
+    padding: 2rem;
+    border-radius: 0.5rem 0 0 0;
+    transition: var(--transition);
+  }
+
+  .change .nav-list {
+    right: 0;
+  }
+
+  .nav-link {
+    margin: 1rem;
   }
 }
 
