@@ -75,6 +75,11 @@ html {
   transform: rotate(-40deg) translateX(-4rem);
   transform-origin: left bottom;
   opacity: 0.8;
+  transition: var(--transition);
+}
+
+.nav-link:hover::before {
+  left: 110%;
 }
 
 
