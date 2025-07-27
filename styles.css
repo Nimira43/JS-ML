@@ -174,4 +174,8 @@ html {
   html {
     font-size: 45%;
   }
+
+  .nav-list { 
+    top: 6.5rem;
+  }
 }
